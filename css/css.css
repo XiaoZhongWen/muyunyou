@@ -1,0 +1,143 @@
+.site-head {
+
+}
+
+.site-head .topbar {
+    height: 32px;
+    background-color: #2a2a2a;
+    line-height: 32px;
+}
+
+.site-head .topbar a {
+    color: white;
+}
+
+.site-head .topbar .shortcut-links {
+    float: left;
+}
+
+.site-head .topbar .shortcut-links ul {
+
+}
+
+.site-head .topbar .shortcut-links > ul > li {
+    float: left;
+    margin-right: 18px;
+    font-size: 12px;
+}
+
+.site-head .topbar .shortcut-links > ul .have-menu {
+    padding-right: 12px;
+    position: relative;
+}
+
+.site-head .topbar .shortcut-links > ul .have-menu .arrow {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    right: 0;
+    margin-top: -6px;
+    transition: transform .2s ease 0s;
+}
+
+.site-head .topbar .shortcut-links > ul .have-menu:hover .arrow {
+    transform: rotate(180deg);
+}
+
+.site-head .topbar .shortcut-links > ul .have-menu .arrow b {
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+.site-head .topbar .shortcut-links > ul .have-menu .arrow i {
+    position: absolute;
+    left: 3px;
+    top: 0.5px;
+    width: 6px;
+    height: 6px;
+    background-color: #2a2a2a;
+    transform: rotate(45deg);
+}
+
+.site-head .main-nav {
+    height: 40px;
+    background-color: #20bd9a;
+}
+
+.site-head .main-nav ul li.have-menu {
+    padding-right: 16px;
+    position: relative;
+}
+
+.site-head .main-nav ul li.have-menu::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 0px;
+    height: 0px;
+    border: 5px solid transparent;
+    border-bottom: none;
+    border-top-color: white;
+    transition: transform .5s ease 0s;
+}
+
+.site-head .main-nav ul li.have-menu:hover::before {
+    transform: rotate(180deg);
+}
+
+.site-head .main-nav ul li {
+    float: left;
+    margin-right: 18px;
+}
+
+.site-head .main-nav ul li a {
+    line-height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.site-head .header_con {
+    height: 36px;
+    padding: 21px auto;
+}
+
+.site-head .header_con h1 {
+    float: left;
+    font-size: 24px;
+    color: #20bd9a;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.site-head .header_con .soso-box {
+    float: left;
+    margin-left: 20px;
+    width: 405px;
+    padding-top: 2px;
+}
+
+.site-head .header_con .soso-box input {
+    float: left;
+    width: 361px;
+    height: 28px;
+    border: 1px solid #20bd9a;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.site-head .header_con .soso-box .btn {
+    float: left;
+    width: 32px;
+    height: 30px;
+    background-color: #20bd9a;
+}
+
